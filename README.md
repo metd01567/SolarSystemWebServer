@@ -15,8 +15,8 @@
 <p>- Create a subfolder "WiFiParams" in your Arduino libraries folder</p>
 <p>- Create a file "WiFiParams.h" there, and add the code below to the file</p>
 <code>
-<p>#ifndef _WIFIPARAMS_H</p>
-<p>#define _WIFIPARAMS_H</p>
+<pre>#ifndef _WIFIPARAMS_H
+#define _WIFIPARAMS_H</pre>
 <p></p>
 <p>//   WiFi station parameters</p>
 <p>const char *ssid = &ltyour ssid>";</p>
