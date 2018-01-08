@@ -13,9 +13,7 @@
 <p>The WiFi ssid and password are needed to connect in station mode, but that's not something to publish.  So I created my own library called WiFiParams, so it is outside this project.  All it has is a single header file: WiFiParams.h.</p>
 <p>To create your own WiFiParams library:</p>
 <p>- Create a subfolder "WiFiParams" in your Arduino libraries folder</p>
-<p>- Create a file "WiFiParams.h" in the new folder</p>
-<p>- Add the code below to the file</p>
-<p>- Update &ltyour ssid> and &ltyour password> for your network</p>
+<p>- Create a file "WiFiParams.h" there, and add the code below to the file</p>
 <code>
 <p>#ifndef _WIFIPARAMS_H</p>
 <p>#define _WIFIPARAMS_H</p>
@@ -23,6 +21,7 @@
 <p>//   WiFi station parameters</p>
 <p>const char *ssid = &ltyour ssid>";</p>
 <p>const char *password = "&ltyour password>";</p>
+<p>- Update &ltyour ssid> and &ltyour password> for your network</p>
 <p></p>
 <p>#endif _WIFIPARAMS_H</p>
 </code>
