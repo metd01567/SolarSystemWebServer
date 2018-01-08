@@ -10,17 +10,19 @@
 <p>-    then changed #include <Time.h> to #incluide <TimeLib.h> in Timezone.cpp, based on info:</p>
 <p>-     https://forum.arduino.cc/index.php?topic=96891.30</p>
 <h2>WiFiParams</h2>
-<code><textarea cols='60' rows='8'>
-#include <WiFiParams.h>
-
-// WiFi station parameters are defined in WiFiParams.h
-// It is kept in a separate library to avoid accidental publication
-//
-// To create your own WiFiParams library:
-//    Create a subfolder "WiFiParams" in your Arduino libraries folder
-//    Create a file "WiFiParams.h" in the new folder
-//    Add the code below to the file
-//    Update <your ssid> and <your password> for your network
-//
-// You can now use this library in other projects
-</textarea></code>
+<p>The WiFi ssid and password are needed to connect in station mode, but that's not something to publish.  So I created my own library called WiFiParams, so it is outside this project.  All it has is a single header file: WiFiParams.h.</p>
+<p>To create your own WiFiParams library:</p>
+<p>- Create a subfolder "WiFiParams" in your Arduino libraries folder</p>
+<p>- Create a file "WiFiParams.h" in the new folder</p>
+<p>- Add the code below to the file</p>
+<p>- Update <your ssid> and <your password> for your network</p>
+<code>
+<p>#ifndef _WIFIPARAMS_H</p>
+<p>#define _WIFIPARAMS_H</p>
+<p></p>
+<p>//   WiFi station parameters</p>
+<p>const char *ssid = "<your ssid>";</p>
+<p>const char *password = "<your password>";</p>
+<p></p>
+<p>#endif _WIFIPARAMS_H</p>
+</code>
