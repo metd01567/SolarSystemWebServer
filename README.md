@@ -15,14 +15,14 @@
 <p>- Create a subfolder "WiFiParams" in your Arduino libraries folder</p>
 <p>- Create a file "WiFiParams.h" in the new folder</p>
 <p>- Add the code below to the file</p>
-<p>- Update <your ssid> and <your password> for your network</p>
+<p>- Update \<your ssid\> and \<your password\> for your network</p>
 <code>
 <p>#ifndef _WIFIPARAMS_H</p>
 <p>#define _WIFIPARAMS_H</p>
 <p></p>
 <p>//   WiFi station parameters</p>
-<p>const char *ssid = "<your ssid>";</p>
-<p>const char *password = "<your password>";</p>
+<p>const char *ssid = "\<your ssid\>";</p>
+<p>const char *password = "\<your password\>";</p>
 <p></p>
 <p>#endif _WIFIPARAMS_H</p>
 </code>
