@@ -7,7 +7,7 @@
 <p>TODO: Timezone library was busted for esp8266.  The project isn't active at the moment, but ought to get fixed somehow.  My workaround:</p>
 <p>- I cloned the project: https://github.com/JChristensen/Timezone.git</p>
 <p>-    Then copied it to the Arduino/libraries folder</p>
-<p>-    then changed #include <Time.h> to #incluide <TimeLib.h> in Timezone.cpp, based on info:</p>
+<p>-    then changed #include &ltTime.h> to #include &ltTimeLib.h> in Timezone.cpp, based on info at:</p>
 <p>-     https://forum.arduino.cc/index.php?topic=96891.30</p>
 <h2>WiFiParams</h2>
 <p>The WiFi ssid and password are needed to connect in station mode, but that's not something to publish.  So I created my own library called WiFiParams, so it is outside this project.  All it has is a single header file: WiFiParams.h.</p>
