@@ -1,6 +1,6 @@
 # SolarSystemWebServer
 
-<p>Creates a web server for monitoring and control of a pico-solar installation. Designed to run on an esp8266 nodeMCU, and has been tested on board: "NodeMCU (1.0 ESP-12E Module".</p>
+<p>Creates a web server for monitoring and control of a pico-solar installation. Designed to run on an esp8266 nodeMCU, and has been tested on board: "NodeMCU (1.0 ESP-12E Module)".</p>
 <p>At setup the infrastructure is initialized: USB serial logging, WiFi network, Network Time Protocol client, and SPIFFS file system.  Project-specific web services are then enabled including web pages for browser use.</p>
 <h1>Libraries Notes</h1>
 <h2>Timezone</h2>
@@ -26,3 +26,9 @@
 <p></p>
 <p>#endif _WIFIPARAMS_H</p>
 </code>
+<h2>NTPClient</h2>
+<p>https://github.com/arduino-libraries/NTPClient<p>
+<h2>Time</h2>
+<p>Using TimeLib.h, there are compilation issues with Time.h for an esp8266 board.</p>
+<p>http://playground.arduino.cc/code/time</p>
+
