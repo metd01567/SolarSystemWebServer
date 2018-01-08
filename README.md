@@ -21,7 +21,7 @@
 <p>#define _WIFIPARAMS_H</p>
 <p></p>
 <p>//   WiFi station parameters</p>
-<p>const char *ssid = &lt<your ssid>";</p>
+<p>const char *ssid = &ltyour ssid>";</p>
 <p>const char *password = "&ltyour password>";</p>
 <p></p>
 <p>#endif _WIFIPARAMS_H</p>
