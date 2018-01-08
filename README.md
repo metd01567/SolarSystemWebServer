@@ -9,3 +9,18 @@
 <p>-    Then copied it to the Arduino/libraries folder</p>
 <p>-    then changed #include <Time.h> to #incluide <TimeLib.h> in Timezone.cpp, based on info:</p>
 <p>-     https://forum.arduino.cc/index.php?topic=96891.30</p>
+<h2>WiFiParams</h2>
+<code>
+#include <WiFiParams.h>
+
+// WiFi station parameters are defined in WiFiParams.h
+// It is kept in a separate library to avoid accidental publication
+//
+// To create your own WiFiParams library:
+//    Create a subfolder "WiFiParams" in your Arduino libraries folder
+//    Create a file "WiFiParams.h" in the new folder
+//    Add the code below to the file
+//    Update <your ssid> and <your password> for your network
+//
+// You can now use this library in other projects
+</code>
