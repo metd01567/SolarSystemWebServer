@@ -10,7 +10,7 @@
 <p>-    then changed #include <Time.h> to #incluide <TimeLib.h> in Timezone.cpp, based on info:</p>
 <p>-     https://forum.arduino.cc/index.php?topic=96891.30</p>
 <h2>WiFiParams</h2>
-<code>
+<code><textarea cols='60' rows='8'>
 #include <WiFiParams.h>
 
 // WiFi station parameters are defined in WiFiParams.h
@@ -23,4 +23,4 @@
 //    Update <your ssid> and <your password> for your network
 //
 // You can now use this library in other projects
-</code>
+</textarea></code>
