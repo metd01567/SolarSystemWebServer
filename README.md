@@ -29,6 +29,7 @@
 <h2>NTPClient</h2>
 <p>https://github.com/arduino-libraries/NTPClient<p>
 <h2>Time</h2>
-<p>Using TimeLib.h, there are compilation issues with Time.h for an esp8266 board.</p>
+<p>Using TimeLib.h, there are compilation issues with Time.h for esp8266 boards.</p>
+<p>Standard Arduino, you should be able to search for it in the IDE's library manager.</p>
 <p>http://playground.arduino.cc/code/time</p>
 
