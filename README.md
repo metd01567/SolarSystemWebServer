@@ -16,17 +16,16 @@
 <p>To create your own WiFiParams library:</p>
 <p>- Create a subfolder "WiFiParams" in your Arduino libraries folder</p>
 <p>- Create a file "WiFiParams.h" there, and add the code below to the file</p>
-<code><pre>
-#ifndef _WIFIPARAMS_H
+<code>
+<pre>#ifndef _WIFIPARAMS_H
 #define _WIFIPARAMS_H
 
 //   WiFi station parameters
 const char *ssid = &ltyour ssid>";
 const char *password = "&ltyour password>";
 
-#endif _WIFIPARAMS_H
-
-</pre></code>
+#endif _WIFIPARAMS_H</pre>
+</code>
 <p>- Update &ltyour ssid> and &ltyour password> for your network</p>
 <h2>NTPClient</h2>
 <p>https://github.com/arduino-libraries/NTPClient<p>
