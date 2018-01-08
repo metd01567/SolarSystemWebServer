@@ -21,10 +21,10 @@
 <p>//   WiFi station parameters</p>
 <p>const char *ssid = &ltyour ssid>";</p>
 <p>const char *password = "&ltyour password>";</p>
-<p>- Update &ltyour ssid> and &ltyour password> for your network</p>
 <p></p>
 <p>#endif _WIFIPARAMS_H</p>
 </code>
+<p>- Update &ltyour ssid> and &ltyour password> for your network</p>
 <h2>NTPClient</h2>
 <p>https://github.com/arduino-libraries/NTPClient<p>
 <h2>Time</h2>
